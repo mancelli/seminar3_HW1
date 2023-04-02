@@ -141,7 +141,7 @@ VSСode дает возможность выбрать какое изменен
     fatal: The current branch remoted has no upstream branch.
     To push the current branch and set the remote as upstream, use
 
-        git push --set-upstream origin remoted
+        git push --set-upstream origin <branch_name>
 
     To have this happen automatically for branches without a tracking
     upstream, see 'push.autoSetupRemote' in 'git help config'.
