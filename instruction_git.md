@@ -135,3 +135,15 @@ VSСode дает возможность выбрать какое изменен
 Чтобы внести изменения из локального репозитория в удаленный нужно отправить 
 
     git push
+
+но может появиться ошибка, например такая
+
+    fatal: The current branch remoted has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+
+        git push --set-upstream origin remoted
+
+    To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+В таком случае просто скопируйте выведенную гитом команду и отправьте ее, тогда ваш репозиторий будет инкрустирован в вилку корректно, примите изменения в вашем гитхабе и новая всетка добавится к существующей вилке.
